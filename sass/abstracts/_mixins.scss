@@ -1,0 +1,39 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// Media Queries Manager
+
+/*
+0   - 600px;      phone
+600 - 900px;      Tablet portrait
+900 - 1200px;     Tablet lanscape
+
+
+(1200 - 1800);    Normal Style
+
+1800px + ; Big Desktop
+
+
+*/
+@mixin respond-phone {
+    @media (max-width:600px) {
+        @content;
+
+    }
+}
+
+@mixin respond($breakpoint) {
+    
+}

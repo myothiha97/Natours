@@ -1,0 +1,44 @@
+
+// variables for different colors;
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-gray: #777;
+$color-gray-dark-1: #585858;
+$color-gray-dark-2: #999;
+$color-gray-dark-3: #333;
+
+$color-gray-light-1: #faf6f6;
+$color-gray-light-2: #d3d3d3d2;
+$color-gray-light-3: #eee;
+
+$color-darkslategray: #2f4f4f;
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+//font sizes 
+
+$default-fontsize: 1.6rem;
+$big-fontsize: 2rem;
+
+$box-shadow-1: 0 1.5rem 4rem rgba($color-black, .15);
+$box-shadow-2: 0 1.5rem 4rem rgba($color-black, .2);
+
+
+$gradient-primary: linear-gradient(to right bottom,rgba($color-primary-light, .8),rgba($color-primary-dark, .8));
+$gradient-secondary: linear-gradient( to right bottom,rgba($color-secondary-light, .8),rgba($color-secondary-dark, .8));
+$gradient-tertiary: linear-gradient(to right bottom,rgba($color-tertiary-light, .8),rgba($color-tertiary-dark, .8));
+
+

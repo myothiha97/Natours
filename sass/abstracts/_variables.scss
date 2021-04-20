@@ -26,18 +26,22 @@ $color-tertiary-dark: #5643fa;
 
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
 $gutter-horizontal: 6rem;
 
 //font sizes 
 
 $default-fontsize: 1.6rem;
 $big-fontsize: 2rem;
+$small-fontsize: 1.5rem;
 
 $box-shadow-1: 0 1.5rem 4rem rgba($color-black, .15);
 $box-shadow-2: 0 1.5rem 4rem rgba($color-black, .2);
 
 
 $gradient-primary: linear-gradient(to right bottom,rgba($color-primary-light, .8),rgba($color-primary-dark, .8));
+$gradient-primary-dark: linear-gradient(to right bottom,rgba($color-primary-light, 1),rgba($color-primary-dark, 1));
+
 $gradient-secondary: linear-gradient( to right bottom,rgba($color-secondary-light, .8),rgba($color-secondary-dark, .8));
 $gradient-tertiary: linear-gradient(to right bottom,rgba($color-tertiary-light, .8),rgba($color-tertiary-dark, .8));
 

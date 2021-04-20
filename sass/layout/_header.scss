@@ -15,6 +15,11 @@
     /* clip-path: polygon(0% 50%, 100% 100%, 0 100% ); */
     clip-path: polygon(0 0, 100% 0, 100% 75%,0 100%);
 
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%,0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 90%,0 100%);
+    }
 }
 
 
